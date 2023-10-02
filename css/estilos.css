@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin: 130px;
+    color: hsl(220, 15%, 55%);
+    width: 300px;
+    height: 495px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo .imagem {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.conteudo .titulo {
+    font-family: Outfit;
+    color: hsl(218, 44%, 22%);
+    display: flex;
+    text-align: center;
+    padding: 19px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.conteudo .paragrafo {
+    font-size: 15px;
+    padding: 15px;
+}
